@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+@import "~ngx-toastr/toastr";
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-image: url(./assets/234.jpg);
+}
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 4em !important;
+  font-size: x-large;
+}
+.svg-inline--fa.fa-w-16 {
+  width: 2em;
+}
+.svg-inline--fa.fa-w-11 {
+  width: 1.6875em !important;
+  height: 4em;
+  height: 4em !important;
+  font-size: x-large;
+}
